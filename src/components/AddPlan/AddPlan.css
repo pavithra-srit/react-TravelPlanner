@@ -1,0 +1,16 @@
+.react-date-picker__inputGroup{
+    display: block;
+    line-height: 2.10 !important;
+    width: 100% !important;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.react-date-picker__wrapper{
+    border-radius:0.375rem;
+    border: 1px solid #dee2e6 !important;
+    font-size: 1rem;
+    font-weight: 400;
+}
+:host ::ng-deep .input-group .react-date-picker{
+    width: 100% !important;
+}

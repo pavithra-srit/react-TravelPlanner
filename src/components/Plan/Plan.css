@@ -1,0 +1,25 @@
+.wrapper{
+    /* margin-top :1rem; */
+    background-image:linear-gradient(rgb(153 186 198 / 30%), rgb(85 153 172 / 30%));
+    height: 84vh;
+    /* padding-top: 5rem; */
+}
+
+
+.left{
+    margin-right: auto;
+}
+
+.fade {
+    opacity: 0 !important;
+    transition: opacity 0.15s linear !important;
+  }
+  
+.fade:not(show) {
+    opacity: 1 !important;
+}
+
+#deleteModal{
+
+backdrop-filter: brightness(0.5) !important;
+}
